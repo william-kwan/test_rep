@@ -7,4 +7,5 @@ def main_handler(event, context):
     if 'key2' in event.keys():
         print("value2 = " + event['key2'])
     print("hello my moonlight")
+    print("this is new branch")
     return "hello from scf"  #return
